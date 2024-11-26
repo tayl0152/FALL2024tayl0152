@@ -1,6 +1,6 @@
 Package: FALL2024tayl0152
 Type: Package
-Title: MATH4753stats
+Title: MATH5753stats
 Version: 0.1.0
 Author: Samantha Taylor
 Maintainer: Samantha Taylor <samanthataylor@ou.edu>
@@ -10,5 +10,13 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
 Suggests: 
+    usethis,
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
+Imports: 
+    rlang
+Depends: 
+    R (>= 2.10)

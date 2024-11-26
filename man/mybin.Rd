@@ -14,10 +14,10 @@ mybin(iter = 100, n = 10, p = 0.7)
 \item{p}{probability}
 }
 \value{
-barplot
+This function returns a barplot
 }
 \description{
-MyBin
+Function developed by SNT for Lab 5 MATH 4753
 }
 \examples{
 mybin(iter=10000,n=10, p=0.7)

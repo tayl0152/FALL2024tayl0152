@@ -2,7 +2,7 @@
 % Please edit documentation in R/myncurve.R
 \name{myncurve}
 \alias{myncurve}
-\title{Lab 6 myncurve}
+\title{MyNCurve}
 \usage{
 myncurve(mu, sigma, a)
 }
@@ -14,11 +14,11 @@ myncurve(mu, sigma, a)
 \item{a}{- Y ~ N(Y less than a)}
 }
 \value{
-a plot showing probability of Y ~ N(Y less than a), and calculated probability
+This function returns a plot showing probability of Y ~ N(Y less than a), and calculated probability
 }
 \description{
-Lab 6 myncurve
+Function developed by SNT for Lab 6 MATH 4753
 }
 \examples{
-myncurve(1,1,2)
+\dontrun{myncurve(1,1,2)}
 }
